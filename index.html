@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صدای جادویی هوش مصنوعی - تبدیل صدای شما</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Background animated sound icons -->
+        <div class="bg-icons"></div>
+        
+        <header>
+           
+            <nav>
+                <ul>
+                    <li><a href="#" class="active"><i class="fas fa-home"></i> خانه</a></li>
+                    <li><a href="#"><i class="fas fa-tags"></i> قیمت‌ها</a></li>
+                    <li><a href="#"><i class="fas fa-info-circle"></i> درباره ما</a></li>
+                    <li><a href="#"><i class="fas fa-headset"></i> تماس با ما</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <div class="headphone-logo">
+                    <svg viewBox="0 0 50 40" width="60" height="48">
+                        <!-- هدفون -->
+                        <path class="headphone-band" d="M10,15 C10,8 20,3 25,3 C30,3 40,8 40,15 L40,20 L38,20 L38,15 C38,10 30,5 25,5 C20,5 12,10 12,15 L12,20 L10,20 Z" />
+                        
+                        <!-- گوشی چپ -->
+                        <path class="headphone-cup left-cup" d="M5,20 C5,20 5,20 5,20 L10,20 L10,30 L5,30 C5,30 2,30 2,25 C2,20 5,20 5,20 Z" />
+                        
+                        <!-- گوشی راست -->
+                        <path class="headphone-cup right-cup" d="M45,20 C45,20 45,20 45,20 L40,20 L40,30 L45,30 C45,30 48,30 48,25 C48,20 45,20 45,20 Z" />
+                        
+                        <!-- امواج صوتی چپ -->
+                        <path class="sound-wave left-wave" d="M8,25 C6,23 6,27 8,25" />
+                        <path class="sound-wave left-wave" d="M8,25 C4,22 4,28 8,25" />
+                        
+                        <!-- امواج صوتی راست -->
+                        <path class="sound-wave right-wave" d="M42,25 C44,23 44,27 42,25" />
+                        <path class="sound-wave right-wave" d="M42,25 C46,22 46,28 42,25" />
+                        
+                        <!-- امواج صوتی وسط -->
+                        <path class="sound-wave center-wave" d="M25,20 L25,10" />
+                        <path class="sound-wave center-wave" d="M20,15 L30,15" />
+                        
+                        <!-- نقطه‌های هوش مصنوعی -->
+                        <circle class="ai-dot" cx="25" cy="15" r="1.5" />
+                        <circle class="ai-dot" cx="21" cy="12" r="1" />
+                        <circle class="ai-dot" cx="29" cy="12" r="1" />
+                    </svg>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="content">
+                <h1>
+                    <span class="glow-text line1">تبدیل صدا به</span><br>
+                    <span class="glow-text line2">   صدای جادویی</span><br>
+                    <span class="glow-text line5">با هوش مصنوعی</span>
+                </h1>
+                <button class="demo-btn">مشاهده نمونه</button>
+            </div>
+            
+            <div class="visualization">
+                <div class="audio-wave"></div>
+            </div>
+        </main>
+        
+        <div class="scroll-indicator">
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
